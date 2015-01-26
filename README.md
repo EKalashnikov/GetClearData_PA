@@ -28,7 +28,8 @@ There are several descriptive variable names principles have been choosen:
 
 ##Output  
 **Mean_SD_Agg.txt** with the result data set is created after running **run_analysis.R**   
-  
+**CodeBook.md** contains the description of data set created after running **run_analysis.R**   
+
 To read data set from **Mean_SD_Agg.txt** to R use command:  
 ```{r, results='hide'}
 read.table("Mean_SD_Agg.txt", header = TRUE)
